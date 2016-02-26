@@ -5,7 +5,7 @@ const Hapi = require('hapi');
 const bot = require('./regaCounterBot');
 
 const server = new Hapi.Server();
-server.connection({ port: 3000 });
+server.connection({ port: process.env.POST || 3000 });
 
 server.route({
     method: 'GET',

@@ -1,5 +1,5 @@
 {
-  "name": "cfcounter",
+  "name": "regabot",
   "version": "1.0.0",
   "description": "CodeFest registration counter Slack bot",
   "main": "index.js",
