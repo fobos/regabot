@@ -1,0 +1,17 @@
+{
+  "name": "cfcounter",
+  "version": "1.0.0",
+  "description": "CodeFest registration counter Slack bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander <alex.biryukoff@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "hapi": "^13.0.0",
+    "wreck": "^7.0.0"
+  }
+}
