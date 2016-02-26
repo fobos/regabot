@@ -1,6 +1,7 @@
 'use strict';
 
 const Hapi = require('hapi');
+const cool = require('cool-ascii-faces');
 
 const bot = require('./regaCounterBot');
 
@@ -11,7 +12,7 @@ server.route({
     method: 'GET',
     path: '/',
     handler: function (request, reply) {
-        reply('Hello, world!');
+        reply('Hello, world! ' + cool());
     }
 });
 

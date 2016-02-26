@@ -2,6 +2,7 @@
 
 const wreck = require('wreck');
 const cheerio = require('cheerio');
+const cool = require('cool-ascii-faces');
 
 module.exports = function (request, reply) {
     wreck.get('http://2016.codefest.ru/', {
@@ -14,7 +15,7 @@ module.exports = function (request, reply) {
         const cnt = parsePage(payload);
         if (cnt > 0) {
             return reply({
-                text: `ВОУ! У нас уже *${cnt}* регистраций!!1`
+                text: `ВОУ! У нас уже *${cnt}* регистраций! ${cool()}`
             });
         }
 
