@@ -13,7 +13,7 @@ module.exports = function (request, reply) {
 
         const cnt = parsePage(payload);
         if (cnt > 0) {
-            return reply(cnt);
+            return reply(`ВОУ! У нас уже *${cnt}* регистраций!!1`);
         }
 
         return reply();
