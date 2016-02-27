@@ -29,3 +29,7 @@ function parsePage(content) {
 
     return Number(cntText);
 }
+
+function send(payload) {
+
+}

@@ -30,6 +30,14 @@ server.route({
     handler: bot
 });
 
+server.route({
+    method: 'POST',
+    path: '/regs',
+    handler: handler: (request, reply) => {
+        reply('Ничо не знаю!');
+    }
+});
+
 
 server.route({
     method: 'GET',
