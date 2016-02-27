@@ -48,9 +48,7 @@ module.exports = [
                 }
 
                 const regPluralText = plural(cnt, ['регистрация', 'регистрации', 'регистраций']);
-                return reply({
-                    text: `${cool()} *${cnt}* ${regPluralText}!`
-                });
+                return reply(`${cool()} *${cnt}* ${regPluralText}!`);
             });
         }
     }
