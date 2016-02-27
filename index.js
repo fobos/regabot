@@ -33,7 +33,7 @@ server.route({
 server.route({
     method: 'POST',
     path: '/regs',
-    handler: handler: (request, reply) => {
+    handler: (request, reply) => {
         reply('Ничо не знаю!');
     }
 });
